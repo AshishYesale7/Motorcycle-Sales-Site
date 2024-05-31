@@ -283,15 +283,15 @@ function verifierChamps() {
     // Vérification de la validité de l'adresse email
     var emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
     if (!emailRegex.test(email)) {
-        alert("Veuillez entrer une adresse email valide.");
+        alert("Please enter a valid email address.");
         return;
     }else{
-        alert("Veuillez remplir tous les champs obligatoires.");
+        alert("Please complete all required fields.");
     }
 
      
     } else {
-        alert("Merci! Votre message est envoyé.");
+        alert("Thank you! Your message has been sent.");
     }
 }
 
