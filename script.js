@@ -249,7 +249,7 @@ $('#search_field').on('keyup', function() {
 document.getElementById("not_found").innerHTML = "";      
       document.getElementById('not_found').style.display = 'none';
     } else {
-      document.getElementById("not_found").innerHTML ="Pas d'autres Résultats de Recherche....";
+      document.getElementById("not_found").innerHTML ="No other Search Results....";
       document.getElementById('not_found').style.display = 'block';
     }
   });
