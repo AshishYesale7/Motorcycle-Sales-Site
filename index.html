@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>motos shop</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Motorcycle sales site</title>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="theme-color" content="linear-gradient(to bottom, #61daff, #656bff)">
+   <meta name="description" content="Site de ntambirimana jean, vente des motos">
+   <meta name="keywords" content="Site wordpresse de vente des motos">
+   <meta name="author" content="Ntambirimana jean."><link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css'>
+<link rel="stylesheet" href="./style.css" />
+
+</head>
+<body>
+
+<main>
+
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+         <a class="navbar-brand" href="#"><strong> Motorcycle Sales Site</strong></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+               <input class="form-control mr-sm-2" type="search" id="search_field"  placeholder="Search ..." aria-label="Search">
+            </form>
+            <button type="button" class="btn btn-primary my-2 my-sm-0" data-toggle="modal"
+               data-target="#staticBackdrop">
+                <i class="fas fa-shopping-cart marginright total-count"></i> Items in Cart
+            </button>
+           
+<!--<button style="margin-left:8px;" class="clear-cart btn btn-danger">Vider le panier</button>-->          
+           
+         </div>
+      </nav>
+      <section>
+         <div class="featured-area pt-100 pb-70">
+            <div class="container">
+               <div class="tab featured-tab-area">
+                  <div class="row justify-content-center">
+
+                     <div class="col-lg-4 col-md-8">
+                        <ul class="tabs active">
+                           <li class="">
+                              <a href="#">
+                            All
+                              </a>
+                           </li>
+                           <li class="">
+                              <a href="#">
+                                TVs
+                              </a>
+                           </li>
+                           <li class="">
+                              <a href="#">
+                               Suzuki
+                              </a>
+                           </li>
+                           <li class="">
+                              <a href="#">
+                             Yamaha
+                              </a>
+                           </li>
+                         <li class="">
+                              <a href="#">
+                         Honda
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="tab_content current active pt-45">
+                     
+                     <div class="tabs_item current">
+                        <div class="row justify-content-center">
+                           <div class="col-lg-3 col-md-6">
+                              <div class="featured-item">
+                                 <div class="featured-item-img">
+                                    <a href="#">
+                                       <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/tvs.png" alt="TVS RED">
+                                    </a>
+                                 </div>
+                                 <div class="content">
+                                    <h3><a href="#">TVS RED</a></h3>
+                                    <hr>
+                                    <div class="content-in">
+                                       <h4>90,000 ₹</h4>
+                                       <span>(4.9)<i class='fa fa-star' style='color:green'></i></span>
+                                    </div>
+                                    <hr>
+                                    <div class="featured-content-list">
+
+
+                                       <button type="button" data-name="TVS RED" data-price="2000" class="default-btn border-radius-5">Add to Cart</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                              <div class="featured-item">
+                                 <div class="featured-item-img">
+                                    <a href="#">
+                                       <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/suzuki2.png" alt="Suzuki 1">
+                                    </a>
+                                 </div>
+                                 <div class="content">
+                                    <h3><a href="#">Suzuki 1 </a></h3>
+                                    <hr>
+                                    <div class="content-in">
+                                       <h4>1950 ₹ </h4>
+                                       <span>(4.4)<i class='fa fa-star' style='color:green'></i></span>
+                                    </div>
+                                    <hr>
+                                    <div class="featured-content-list">
+                                       <button type="button" data-name="Suzuki 1" data-price="1950" class="default-btn border-radius-5">Add to Cart</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                              <div class="featured-item">
+                                 <div class="featured-item-img">
+                                    <a href="#">
+                                       <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/rds00937_3_.jpg" alt="Yamaha 1">
+                                    </a>
+                                 </div>
+                                 <div class="content">
+                                    <h3><a href="#">Yamaha 1</a></h3>
+                                    <hr>
+                                    <div class="content-in">
+                                       <h4>2600 ₹ </h4>
+                                       <span>(4.4)<i class='fa fa-star' style='color:green'></i></span>
+                                    </div>
+                                    <hr>
+                                    <div class="featured-content-list">
+                                       <button type="button" data-name="Yamaha 1" data-price="2600" class="default-btn border-radius-5">Add to Cart</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                               <div class="featured-item-img">
+                                  <a href="#">
+                                     <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/honda-1-2.jpg" alt="Honda 1">
+                                  </a>
+                               </div>
+                               <div class="content">
+                                  <h3><a href="#">Honda 1</a></h3>
+                                  <hr>
+                                  <div class="content-in">
+                                     <h4>2900 ₹ </h4>
+                                     <span>(4.5)<i class='fa fa-star' style='color:green'></i></span>
+                                  </div>
+                                  <hr>
+                                  <div class="featured-content-list">
+                                     <button type="button" data-name="Honda 1" data-price="2900" class="default-btn border-radius-5">Add to Cart</button>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+
+                           <div class="col-lg-3 col-md-6">
+                              <div class="featured-item">
+                                 <div class="featured-item-img">
+                                    <a href="#">
+                                       <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/tvs2.jpg" alt="Tvs 2">
+                                    </a>
+                                 </div>
+                                 <div class="content">
+                                    <h3><a href="#">TVS</a></h3>
+                                    <hr>
+                                    <div class="content-in">
+                                       <h4>1800 ₹ </h4>
+                                       <span>(4.9)<i class='fa fa-star' style='color:green'></i></span>
+                                    </div>
+                                    <hr>
+                                    <div class="featured-content-list">
+                                       <button type="button" data-name="TVS" data-price="1800" class="default-btn border-radius-5">Add to Cart</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                              <div class="featured-item">
+                                 <div class="featured-item-img">
+                                    <a href="#">
+                                       <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/suzuki-blanco.png" alt="Images">
+                                    </a>
+                                 </div>
+                                 <div class="content">
+                                    <h3><a href="#">Suzuki blanco</a></h3>
+                                    <hr>
+                                    <div class="content-in">
+                                       <h4>1,40,000 ₹ </h4>
+                                       <span>(4.4)<i class='fa fa-star' style='color:green'></i></span>
+                                    </div>
+                                    <hr>
+                                    <div class="featured-content-list">
+                                       <button type="button" data-name="Suzuki blanco" data-price="2400" class="default-btn border-radius-5">Add to Cart</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                              <div class="featured-item">
+                                 <div class="featured-item-img">
+                                    <a href="#">
+                                       <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/rds00970_26_.jpg" alt="Yamaha 2">
+                                    </a>
+                                 </div>
+                                 <div class="content">
+                                    <h3><a href="#">YAMAHA 2 </a></h3>
+                                    <hr>
+                                    <div class="content-in">
+                                       <h4>1,50,000 ₹ </h4>
+                                       <span>(4.4)<i class='fa fa-star' style='color:green'></i></span>
+                                    </div>
+                                    <hr>
+                                    <div class="featured-content-list">
+                                       <button type="button" data-name="YAMAHA 2" data-price="2500" class="default-btn border-radius-5">Add to Cart</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                               <div class="featured-item-img">
+                                  <a href="#">
+                                     <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/honda-cb-100-negra-3.webp" alt="Honda CB-100">
+                                  </a>
+                               </div>
+                               <div class="content">
+                                  <h3><a href="#">Honda CB-100</a></h3>
+                                  <hr>
+                                  <div class="content-in">
+                                     <h4>3,10,000 ₹ </h4>
+                                     <span>(4.5)<i class='fa fa-star' style='color:green'></i></span>
+                                  </div>
+                                  <hr>
+                                  <div class="featured-content-list">
+                                     <button type="button" data-name="Honda CB-100" data-price="3100" class="default-btn border-radius-5">Add to Cart</button>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+
+
+                         
+                           <div class="col-lg-3 col-md-6">
+                              <div class="featured-item">
+                                 <div class="featured-item-img">
+                                    <a href="#">
+                                       <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/tvs-bleu.webp" alt="TVS bleu">
+                                    </a>
+                                 </div>
+                                 <div class="content">
+                                    <h3><a href="#">TVS bleu</a></h3>
+                                    <hr>
+                                    <div class="content-in">
+                                       <h4>1,49,000 ₹ </h4>
+                                       <span>(4.9)<i class='fa fa-star' style='color:green'></i></span>
+                                    </div>
+                                    <hr>
+                                    <div class="featured-content-list">
+                                       <button type="button" data-name="TVS bleu" data-price="1490" class="default-btn border-radius-5">Add to Cart</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                              <div class="featured-item">
+                                 <div class="featured-item-img">
+                                    <a href="#">
+                                       <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/rds00987-66.jpg" alt="Images">
+                                    </a>
+                                 </div>
+                                 <div class="content">
+                                    <h3><a href="#">Suzuki 3</a></h3>
+                                    <hr>
+                                    <div class="content-in">
+                                       <h4>1,15,000 ₹</h4>
+                                       <span>(4.0)<i class='fa fa-star' style='color:green'></i></span>
+                                    </div>
+                                    <hr>
+                                    <div class="featured-content-list">
+                                       <button type="button" data-name="Suzuki 3" data-price="1150" class="default-btn border-radius-5">Add to Cart</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                              <div class="featured-item">
+                                 <div class="featured-item-img">
+                                    <a href="#">
+                                       <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/yamaha.jpg" alt="Yamaha DET">
+                                    </a>
+                                 </div>
+                                 <div class="content">
+                                    <h3><a href="#">Yamaha DET</a></h3>
+                                    <hr>
+                                    <div class="content-in">
+                                       <h4>2,55,000 ₹</h4>
+                                       <span>(4.4)<i class='fa fa-star' style='color:green'></i></span>
+                                    </div>
+                                    <hr>
+                                    <div class="featured-content-list">
+                                       <button type="button" data-name="Yamaha DET" data-price="2550" class="default-btn border-radius-5">Add to Cart</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                               <div class="featured-item-img">
+                                  <a href="#">
+                                     <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/honda-cb-1000-2.jpg" alt="Honda CB-1000">
+                                  </a>
+                               </div>
+                               <div class="content">
+                                  <h3><a href="#">Honda CB-1000</a></h3>
+                                  <hr>
+                                  <div class="content-in">
+                                     <h4>3,50,000 ₹</h4>
+                                     <span>(3.1)<i class='fa fa-star' style='color:green'></i></span>
+                                  </div>
+                                  <hr>
+                                  <div class="featured-content-list">
+                                     <button type="button" data-name="Honda CB-1000" data-price="3500" class="default-btn border-radius-5">Add to Cart</button>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+
+
+                           <div class="col-lg-3 col-md-6">
+                              <div class="featured-item">
+                                 <div class="featured-item-img">
+                                    <a href="#">
+                                       <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/Tvs-Black.webp" alt="TVS Black">
+                                    </a>
+                                 </div>
+                                 <div class="content">
+                                    <h3><a href="#">TVS Black</a></h3>
+                                    <hr>
+                                    <div class="content-in">
+                                       <h4>1,70,000 ₹</h4>
+                                       <span>(3.9)<i class='fa fa-star' style='color:green'></i></span>
+                                    </div>
+                                    <hr>
+                                    <div class="featured-content-list">
+                                       <button type="button" data-name="TVS Black" data-price="1700" class="default-btn border-radius-5">Add to Cart</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                              <div class="featured-item">
+                                 <div class="featured-item-img">
+                                    <a href="#">
+                                       <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/Rojo-suzuki.png" alt="Suzuki  Rojo">
+                                    </a>
+                                 </div>
+                                 <div class="content">
+                                    <h3><a href="#">Suzuki Rojo</a></h3>
+                                    <hr>
+                                    <div class="content-in">
+                                       <h4>3,50,000 ₹</h4>
+                                       <span>(4.4)<i class='fa fa-star' style='color:green'></i></span>
+                                    </div>
+                                    <hr>
+                                    <div class="featured-content-list">
+                                       <button type="button" data-name="Suzuki Rojo" data-price="3050" class="default-btn border-radius-5">Add to Cart</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                              <div class="featured-item">
+                                 <div class="featured-item-img">
+                                    <a href="#">
+                                       <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/XTZ150_home_carrusel_2.png" alt="Yamaha XTZ">
+                                    </a>
+                                 </div>
+                                 <div class="content">
+                                    <h3><a href="#">Yamaha XTZ</a></h3>
+                                    <hr>
+                                    <div class="content-in">
+                                       <h4>2,45,000 ₹</h4>
+                                       <span>(4.4)<i class='fa fa-star' style='color:green'></i></span>
+                                    </div>
+                                    <hr>
+                                    <div class="featured-content-list">
+                                       <button type="button" data-name="Yamaha XTZ" data-price="2450" class=" default-btn border-radius-5">Add to Cart</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                               <div class="featured-item-img">
+                                  <a href="#">
+                                     <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/honda-maisto.jpg" alt="Honda Maisto">
+                                  </a>
+                               </div>
+                               <div class="content">
+                                  <h3><a href="#">Honda Maisto</a></h3>
+                                  <hr>
+                                  <div class="content-in">
+                                     <h4>3,20,000 ₹</h4>
+                                     <span>(3.4)<i class='fa fa-star' style='color:green'></i></span>
+                                  </div>
+                                  <hr>
+                                  <div class="featured-content-list">
+                                     <button type="button" data-name="Honda Maisto" data-price="3200" class="default-btn border-radius-5">Add to Cart</button>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+
+
+                        </div>
+                     </div>
+
+                     <div class="tabs_item">
+                        <div class="row justify-content-center">
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                                <div class="featured-item-img">
+                                   <a href="#">
+                                      <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/tvs.png" alt="TVS RED">
+                                   </a>
+                                </div>
+                                <div class="content">
+                                   <h3><a href="#">TVS RED</a></h3>
+                                   <hr>
+                                   <div class="content-in">
+                                      <h4>2,10,000 ₹</h4>
+                                      <span>(4.9)<i class='fa fa-star' style='color:green'></i></span>
+                                   </div>
+                                   <hr>
+                                   <div class="featured-content-list">
+
+
+                                      <button type="button" data-name="TVS RED" data-price="2000" class="default-btn border-radius-5">Add to Cart</button>
+                                   </div>
+                                </div>
+                             </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                                <div class="featured-item-img">
+                                   <a href="#">
+                                      <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/tvs2.jpg" alt="Tvs 2">
+                                   </a>
+                                </div>
+                                <div class="content">
+                                   <h3><a href="#">TVS</a></h3>
+                                   <hr>
+                                   <div class="content-in">
+                                      <h4>1,80,000 ₹ </h4>
+                                      <span>(4.9)<i class='fa fa-star' style='color:green'></i></span>
+                                   </div>
+                                   <hr>
+                                   <div class="featured-content-list">
+                                      <button type="button" data-name="TVS" data-price="1800" class="default-btn border-radius-5">Add to Cart</button>
+                                   </div>
+                                </div>
+                             </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                                <div class="featured-item-img">
+                                   <a href="#">
+                                      <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/tvs-bleu.webp" alt="TVS bleu">
+                                   </a>
+                                </div>
+                                <div class="content">
+                                   <h3><a href="#">TVS bleu</a></h3>
+                                   <hr>
+                                   <div class="content-in">
+                                      <h4>1,49,000 ₹ </h4>
+                                      <span>(4.9)<i class='fa fa-star' style='color:green'></i></span>
+                                   </div>
+                                   <hr>
+                                   <div class="featured-content-list">
+                                      <button type="button" data-name="TVS bleu" data-price="1490" class="default-btn border-radius-5">Add to Cart</button>
+                                   </div>
+                                </div>
+                             </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                                <div class="featured-item-img">
+                                   <a href="#">
+                                      <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/Tvs-Black.webp" alt="TVS Black">
+                                   </a>
+                                </div>
+                                <div class="content">
+                                   <h3><a href="#">TVS Black</a></h3>
+                                   <hr>
+                                   <div class="content-in">
+                                      <h4>1,70,000 ₹</h4>
+                                      <span>(3.9)<i class='fa fa-star' style='color:green'></i></span>
+                                   </div>
+                                   <hr>
+                                   <div class="featured-content-list">
+                                      <button type="button" data-name="TVS Black" data-price="1700" class="default-btn border-radius-5">Add to Cart</button>
+                                   </div>
+                                </div>
+                             </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="tabs_item">
+                        <div class="row justify-content-center">
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                                <div class="featured-item-img">
+                                   <a href="#">
+                                      <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/suzuki2.png" alt="Suzuki 1">
+                                   </a>
+                                </div>
+                                <div class="content">
+                                   <h3><a href="#">Suzuki 1 </a></h3>
+                                   <hr>
+                                   <div class="content-in">
+                                      <h4>1950 ₹ </h4>
+                                      <span>(4.4)<i class='fa fa-star' style='color:green'></i></span>
+                                   </div>
+                                   <hr>
+                                   <div class="featured-content-list">
+                                      <button type="button" data-name="Suzuki 1" data-price="1950" class="default-btn border-radius-5">Add to Cart</button>
+                                   </div>
+                                </div>
+                             </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                                <div class="featured-item-img">
+                                   <a href="#">
+                                      <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/suzuki-blanco.png" alt="Images">
+                                   </a>
+                                </div>
+                                <div class="content">
+                                   <h3><a href="#">Suzuki blanco</a></h3>
+                                   <hr>
+                                   <div class="content-in">
+                                      <h4>2,40,000 ₹ </h4>
+                                      <span>(4.4)<i class='fa fa-star' style='color:green'></i></span>
+                                   </div>
+                                   <hr>
+                                   <div class="featured-content-list">
+                                      <button type="button" data-name="Suzuki blanco" data-price="2400" class="default-btn border-radius-5">Add to Cart</button>
+                                   </div>
+                                </div>
+                             </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                                <div class="featured-item-img">
+                                   <a href="#">
+                                      <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/rds00987-66.jpg" alt="Images">
+                                   </a>
+                                </div>
+                                <div class="content">
+                                   <h3><a href="#">Suzuki 3</a></h3>
+                                   <hr>
+                                   <div class="content-in">
+                                      <h4>1,15,000 ₹</h4>
+                                      <span>(4.0)<i class='fa fa-star' style='color:green'></i></span>
+                                   </div>
+                                   <hr>
+                                   <div class="featured-content-list">
+                                      <button type="button" data-name="Suzuki 3" data-price="1150" class="default-btn border-radius-5">Add to Cart</button>
+                                   </div>
+                                </div>
+                             </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                                <div class="featured-item-img">
+                                   <a href="#">
+                                      <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/Rojo-suzuki.png" alt="Suzuki  Rojo">
+                                   </a>
+                                </div>
+                                <div class="content">
+                                   <h3><a href="#">Suzuki Rojo</a></h3>
+                                   <hr>
+                                   <div class="content-in">
+                                      <h4>3,05,000 ₹</h4>
+                                      <span>(4.4)<i class='fa fa-star' style='color:green'></i></span>
+                                   </div>
+                                   <hr>
+                                   <div class="featured-content-list">
+                                      <button type="button" data-name="Suzuki Rojo" data-price="3050" class="default-btn border-radius-5">Add to Cart</button>
+                                   </div>
+                                </div>
+                             </div>
+                           </div>
+                        </div>
+                     </div>
+
+
+
+                     <div class="tabs_item">
+                        <div class="row justify-content-center">
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                                <div class="featured-item-img">
+                                   <a href="#">
+                                      <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/rds00937_3_.jpg" alt="Yamaha 1">
+                                   </a>
+                                </div>
+                                <div class="content">
+                                   <h3><a href="#">Yamaha 1</a></h3>
+                                   <hr>
+                                   <div class="content-in">
+                                      <h4>2,60,000 ₹ </h4>
+                                      <span>(4.4)<i class='fa fa-star' style='color:green'></i></span>
+                                   </div>
+                                   <hr>
+                                   <div class="featured-content-list">
+                                      <button type="button" data-name="Yamaha 1" data-price="2600" class="default-btn border-radius-5">Add to Cart</button>
+                                   </div>
+                                </div>
+                             </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                                <div class="featured-item-img">
+                                   <a href="#">
+                                      <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/rds00970_26_.jpg" alt="Yamaha 2">
+                                   </a>
+                                </div>
+                                <div class="content">
+                                   <h3><a href="#">YAMAHA 2 </a></h3>
+                                   <hr>
+                                   <div class="content-in">
+                                      <h4>2,50,000 ₹ </h4>
+                                      <span>(4.4)<i class='fa fa-star' style='color:green'></i></span>
+                                   </div>
+                                   <hr>
+                                   <div class="featured-content-list">
+                                      <button type="button" data-name="YAMAHA 2" data-price="2500" class="default-btn border-radius-5">Add to Cart</button>
+                                   </div>
+                                </div>
+                             </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                                <div class="featured-item-img">
+                                   <a href="#">
+                                      <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/yamaha.jpg" alt="Yamaha DET">
+                                   </a>
+                                </div>
+                                <div class="content">
+                                   <h3><a href="#">Yamaha DET</a></h3>
+                                   <hr>
+                                   <div class="content-in">
+                                      <h4>2,55,000 ₹</h4>
+                                      <span>(4.4)<i class='fa fa-star' style='color:green'></i></span>
+                                   </div>
+                                   <hr>
+                                   <div class="featured-content-list">
+                                      <button type="button" data-name="Yamaha DET" data-price="2550" class="default-btn border-radius-5">Add to Cart</button>
+                                   </div>
+                                </div>
+                             </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                                <div class="featured-item-img">
+                                   <a href="#">
+                                      <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/XTZ150_home_carrusel_2.png" alt="Yamaha XTZ">
+                                   </a>
+                                </div>
+                                <div class="content">
+                                   <h3><a href="#">Yamaha XTZ</a></h3>
+                                   <hr>
+                                   <div class="content-in">
+                                      <h4>2,45,000 ₹</h4>
+                                      <span>(4.4)<i class='fa fa-star' style='color:green'></i></span>
+                                   </div>
+                                   <hr>
+                                   <div class="featured-content-list">
+                                      <button type="button" data-name="Yamaha XTZ" data-price="2450" class=" default-btn border-radius-5">Add to Cart</button>
+                                   </div>
+                                </div>
+                             </div>
+                           </div>
+                        </div>
+                     </div>
+
+
+                     <div class="tabs_item">
+                        <div class="row justify-content-center">
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                               <div class="featured-item-img">
+                                  <a href="#">
+                                     <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/honda-1-2.jpg" alt="Honda 1">
+                                  </a>
+                               </div>
+                               <div class="content">
+                                  <h3><a href="#">Honda 1</a></h3>
+                                  <hr>
+                                  <div class="content-in">
+                                     <h4>2,90,000 ₹ </h4>
+                                     <span>(4.5)<i class='fa fa-star' style='color:green'></i></span>
+                                  </div>
+                                  <hr>
+                                  <div class="featured-content-list">
+                                     <button type="button" data-name="Honda 1" data-price="2900" class="default-btn border-radius-5">Add to Cart</button>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+
+
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                               <div class="featured-item-img">
+                                  <a href="#">
+                                     <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/honda-cb-100-negra-3.webp" alt="Honda CB-100">
+                                  </a>
+                               </div>
+                               <div class="content">
+                                  <h3><a href="#">Honda CB-100</a></h3>
+                                  <hr>
+                                  <div class="content-in">
+                                     <h4>3,10,000 ₹ </h4>
+                                     <span>(4.5)<i class='fa fa-star' style='color:green'></i></span>
+                                  </div>
+                                  <hr>
+                                  <div class="featured-content-list">
+                                     <button type="button" data-name="Honda CB-100" data-price="3100" class="default-btn border-radius-5">Add to Cart</button>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                               <div class="featured-item-img">
+                                  <a href="#">
+                                     <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/honda-cb-1000-2.jpg" alt="Honda CB-1000">
+                                  </a>
+                               </div>
+                               <div class="content">
+                                  <h3><a href="#">Honda CB-1000</a></h3>
+                                  <hr>
+                                  <div class="content-in">
+                                     <h4>3,50,000 ₹</h4>
+                                     <span>(3.1)<i class='fa fa-star' style='color:green'></i></span>
+                                  </div>
+                                  <hr>
+                                  <div class="featured-content-list">
+                                     <button type="button" data-name="Honda CB-1000" data-price="3500" class="default-btn border-radius-5">₹</button>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+
+
+                           <div class="col-lg-3 col-md-6">
+                            <div class="featured-item">
+                               <div class="featured-item-img">
+                                  <a href="#">
+                                     <img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/honda-maisto.jpg" alt="Honda Maisto">
+                                  </a>
+                               </div>
+                               <div class="content">
+                                  <h3><a href="#">Honda Maisto</a></h3>
+                                  <hr>
+                                  <div class="content-in">
+                                     <h4>3,20,000 ₹</h4>
+                                     <span>(3.4)<i class='fa fa-star' style='color:green'></i></span>
+                                  </div>
+                                  <hr>
+                                  <div class="featured-content-list">
+                                     <button type="button" data-name="Honda Maisto" data-price="3200" class="default-btn border-radius-5">Add to Cart</button>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+
+
+                        </div>
+                     </div>
+
+                     <p id="not_found"></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="container section-2">
+        <!-- SPONSOR group 1 -->
+        <div class="sponsor sponsor-1"><img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/Suzuki.jpg" alt="Suzuki logo"></div>
+        <div class="sponsor sponsor-2"><img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/tvs-logo.png" alt="Tvs logo"></div>
+  
+        <!-- SPONSOR group 2 -->
+        <div class="sponsor sponsor-3"><img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/yamaha-logo.png" alt="YAMAHA logo"></div>
+        <div class="sponsor sponsor-4"><img src="https://dev-ventes-motos.pantheonsite.io/wp-content/uploads/2024/05/Honda_Logo.svg_.png" alt="Honda logo"></div>
+      </section>
+  
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+         aria-labelledby="staticBackdropLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">List of motorcycles added to the basket</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <table class="show-cart table">
+        
+                  </table>
+                  <div class="grand-total">Total Price: <span class="total-cart"></span> ₹</div>
+                
+                <div id="paypal-button-container">
+                    <script src=" " ></script>
+               </div>
+                </div>
+                <div class="modal-footer">
+                    <p><i class="fa fa-info"></i> Click on Paypal to access payment
+
+</p>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button style="margin-left:8px;" class="clear-cart btn btn-danger">Clear the Basket</button>  
+            </div>
+         </div>
+      </div>
+   </main>
+
+   <footer class="footer">
+    <div class="bubbles">
+       <script></script>
+    </div>
+  <div class="footer-content">
+     
+      <div class="footer-section about">
+          <h1>About Us</h1>
+          <p>This is a motorcycle trading website made using HTML , CSS and JavaScript </p>
+          <h1>How to Use</h1>
+          <p>You can click on the Add to Cart button to add the item to the cart and Click on cart to View and continue Payments</p>
+      
+        </div>
+      <div class="footer-section links">
+          <h1> Useful links </h1>
+          <ul class="liens">
+            <li><a href="">Home</a></li>
+              <li><a href="https://www.facebook.com/ntambirimana.jean">Facebook</a></li>
+              <li><a href="" data-toggle="modal"
+                data-target="#staticBackdrop"> Your Bucket</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+      </div>
+      <div class="footer-section contact-form" id="#contact">
+          <h1>Contact Us</h1>
+            <form action="" method="POST" id="contactform">
+                <input type="text" id="nom" name="name" required autofocus class="text-input contact-input" placeholder="Your name">
+                <input type="email" id="mail" name="email" required class="text-input contact-input" placeholder="Your Email">
+                <textarea rows="4" id="msg" name="message" required class="text-input contact-input" placeholder="Your Message"></textarea>
+                <button type="submit" onclick="verifierChamps()" class="send">Send</button>
+            </form>
+      </div>
+  </div>
+ 
+</footer>
+<svg style="position: fixed; top: 100vh;">
+<defs>
+    <filter id="blob">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="blob"/>
+    </filter>
+</defs>
+</svg>
+  
+  <script src='https://code.jquery.com/jquery-3.6.3.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js'></script>
+
+   <script  src="./script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
